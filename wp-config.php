@@ -17,13 +17,6 @@ if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
 
 
 // ==============================================================
-// Load /wp-content from outside the WP install
-// ==============================================================
-define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/wp-content' );
-define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/wp-content' );
-
-
-// ==============================================================
 // Salts, for security
 // Grab these from: https://api.wordpress.org/secret-key/1.1/salt
 // ==============================================================
@@ -52,12 +45,26 @@ if ( 'WP_LOCAL_DEV') {
 	define( 'WP_DEBUG', true );
 }
 
+
 // ==============================================================
 // Absolute path to WP directory
 // ==============================================================
 if ( ! defined( 'ABSPATH' )) {
 	define( 'ABSPATH', dirname( __FILE__ ) . '/wp/' );
 }
+
+
+// ==============================================================
+// Load /wp-content from outside the WP install
+// ==============================================================
+define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/wp-content' );
+define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/wp-content' );
+
+
+// ==============================================================
+// Change location of uploads
+// ==============================================================
+define( 'UPLOADS', 'wp-content/media' );
 
 
 // ==============================================================
