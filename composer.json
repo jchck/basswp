@@ -11,13 +11,18 @@
     "repositories": [
         {
           "type": "composer",
-          "url": "http://wpackagist.org"
+          "url": "https://wpackagist.org"
         }
     ],
+    "config": {
+        "preferred-install": "dist"
+    },
     "require": {
         "php": "^5.5",
         "johnpbloch/wordpress": "^4.5",
-        "composer/installers": "*"
+        "composer/installers": "~1.0.12",
+        "wpackagist-plugin/advanced-custom-fields":"dev-trunk",
+        "wpackagist-plugin/akismet":"dev-trunk"
     },
     "extra":{
         "installer-paths": {
