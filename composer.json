@@ -1,14 +1,30 @@
 {
     "name": "jchck/basswp",
-    "require": {
-        "php": "^5.5",
-        "johnpbloch/wordpress": "^4.5"
-    },
+    "description": "A modern WP stack",
     "license": "MIT",
     "authors": [
         {
             "name": "jchck",
             "email": "hey@justinchick.com"
         }
-    ]
+    ],
+    "repositories": [
+        {
+          "type": "composer",
+          "url": "http://wpackagist.org"
+        }
+    ],
+    "require": {
+        "php": "^5.5",
+        "johnpbloch/wordpress": "^4.5",
+        "composer/installers": "*"
+    },
+    "extra":{
+        "installer-paths": {
+            "wp-content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+            "wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+            "wp-content/themes/{$name}/": ["type:wordpress-theme"]
+        },
+        "wordpress-install-dir": "wp"
+    }
 }
