@@ -47,6 +47,16 @@ if ( 'WP_LOCAL_DEV') {
 
 
 // ==============================================================
+// Set the site & home URL's
+// ==============================================================
+if ( WP_LOCAL_DEV && ! defined( 'WP_SITEURL' ) ) {
+	define( 'WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] . '/wp' );
+	if (! defined( 'WP_HOME' ) ) {
+		define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST']);
+	}
+}
+
+// ==============================================================
 // Absolute path to WP directory
 // ==============================================================
 if ( ! defined( 'ABSPATH' )) {
