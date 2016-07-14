@@ -17,6 +17,13 @@ if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
 
 
 // ==============================================================
+// Load /wp-content from outside the WP install
+// ==============================================================
+define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/wp-content' );
+define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/wp-content' );
+
+
+// ==============================================================
 // Salts, for security
 // Grab these from: https://api.wordpress.org/secret-key/1.1/salt
 // ==============================================================
