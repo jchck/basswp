@@ -7,3 +7,4 @@
 # WordPress
 /wp/
 /app/
+wp-config-local.php

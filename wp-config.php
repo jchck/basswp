@@ -2,17 +2,17 @@
 
 
 // ==============================================================
-// Load database info and local development parameters
+// Define production database info
 // ==============================================================
-if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
+if ( file_exists( dirname( __FILE__ ) . '/wp-config-local.php' ) ) {
 	define( 'WP_LOCAL_DEV', true );
-	include( dirname( __FILE__ ) . '/local-config.php');
-} elseif ( ! defined( 'WP_LOCAL_DEV' ) ) {
+	include( dirname( __FILE__ ) . '/wp-config-local.php');
+} else {
 	define( 'WP_LOCAL_DEV', false );
-	define( 'DB_NAME', 'scotchbox' );
-	define( 'DB_USER', 'root' );
-	define( 'DB_PASSWORD', 'root' );
-	define( 'DB_HOST', 'localhost' ); 
+	define( 'DB_NAME', 'production_db_name_here' );
+	define( 'DB_USER', 'production_db_username_here' );
+	define( 'DB_PASSWORD', 'production_db_password_here' );
+	define( 'DB_HOST', 'production_db_host_here' ); 
 }
 
 
