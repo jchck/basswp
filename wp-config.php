@@ -65,10 +65,11 @@ if ( ! defined( 'ABSPATH' )) {
 
 
 // ==============================================================
-// Load /wp-content from outside the WP install
+// Rename /wp-content/ to /app/
+// Load that from outside WP directory
 // ==============================================================
-define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/wp-content' );
-define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/wp-content' );
+define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/app' );
+define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/app' );
 
 
 // ==============================================================
