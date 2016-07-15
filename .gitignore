@@ -7,4 +7,5 @@
 # WordPress
 /wp/
 /app/
+.htaccess
 wp-config-local.php
