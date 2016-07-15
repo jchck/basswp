@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "75c80e9aa85774b4608be18613119b49",
-    "content-hash": "05f9efbb837cd32419d4ed5057f90e6a",
+    "hash": "dd92ef4c03f9eb7c8aea9b3690136469",
+    "content-hash": "8d18949a9a6d3171cd098cab576a0815",
     "packages": [
         {
             "name": "composer/installers",
@@ -275,6 +275,26 @@
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/akismet/",
             "time": "2016-06-06 05:09:10"
+        },
+        {
+            "name": "wpackagist-plugin/wp-limit-login-attempts",
+            "version": "2.4.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-limit-login-attempts/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-limit-login-attempts.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-limit-login-attempts/"
         },
         {
             "name": "wpackagist-theme/twentysixteen",
