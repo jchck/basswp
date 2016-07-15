@@ -15,6 +15,7 @@ Vagrant.configure("2") do |config|
 	    sudo sed -i s,/var/www/public,/var/www,g /etc/apache2/sites-available/000-default.conf
 	    sudo sed -i s,/var/www/public,/var/www,g /etc/apache2/sites-available/scotchbox.local.conf
 	    sudo service apache2 restart
+        echo View at http://192.168.33.10
 	SHELL
 
 end
