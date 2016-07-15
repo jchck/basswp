@@ -9,10 +9,10 @@ if ( file_exists( dirname( __FILE__ ) . '/wp-config-local.php' ) ) {
 	include( dirname( __FILE__ ) . '/wp-config-local.php');
 } else {
 	define( 'WP_LOCAL_DEV', false );
-	define( 'DB_NAME', 'production_db_name_here' );
-	define( 'DB_USER', 'production_db_username_here' );
-	define( 'DB_PASSWORD', 'production_db_password_here' );
-	define( 'DB_HOST', 'production_db_host_here' ); 
+	define( 'DB_NAME', 'wpstackjustinchickcom' );
+	define( 'DB_USER', '808heartbreak' );
+	define( 'DB_PASSWORD', 'outside is nice' );
+	define( 'DB_HOST', 'mysql.wp-stack.justinchick.com' ); 
 }
 
 
