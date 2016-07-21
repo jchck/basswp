@@ -73,6 +73,12 @@ define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/app' );
 
 
 // ==============================================================
+// Set Basswp Thesis to default theme
+// ==============================================================
+define( 'WP_DEFAULT_THEME', 'basswp-thesis' );
+
+
+// ==============================================================
 // Change location of uploads
 // ==============================================================
 define( 'UPLOADS', 'wp-content/media' );
