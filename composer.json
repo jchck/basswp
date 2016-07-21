@@ -25,8 +25,8 @@
         "wpackagist-plugin/akismet":"dev-trunk",
         "wpackagist-theme/twentysixteen":"*",
         "roots/soil": "^3.7",
-        "wpackagist-plugin/wp-limit-login-attempts": "^2.4",
-        "basswp/setup": "^0.0.1"
+        "basswp/setup": "^0.0.1",
+        "roots/wp-password-bcrypt": "^1.0"
     },
     "extra":{
         "installer-paths": {
