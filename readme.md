@@ -2,8 +2,8 @@
 A Composer powered WordPress Multisite setup
 
 ## features
-* Install and manage all dependencies via [Composer](https://getcomposer.org/). That's themes, plugins, and even the WordPress core
-* manage themes & plugins from outside of the typical `wp-content/*` directory
+* install and manage all dependencies via [Composer](https://getcomposer.org/). That's themes, plugins, and even the WordPress core
+* use vagrant to setup a development enviroment
 
 ## reqirements
 * [composer](https://getcomposer.org)
@@ -20,3 +20,6 @@ A Composer powered WordPress Multisite setup
 
 ## license
 MIT
+
+## yay
+ 
