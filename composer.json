@@ -22,8 +22,8 @@
         "johnpbloch/wordpress": "^4.5",
         "composer/installers": "~1.0",
         "wpackagist-plugin/advanced-custom-fields":"dev-trunk",
+        "wpackagist-plugin/jetpack": "dev-trunk",
         "wpackagist-plugin/akismet":"dev-trunk",
-        "wpackagist-theme/twentysixteen":"*",
         "roots/soil": "^3.7",
         "basswp/setup": "^0.0.1",
         "roots/wp-password-bcrypt": "^1.0"
