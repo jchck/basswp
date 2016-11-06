@@ -7,6 +7,7 @@ A Composer powered WordPress Multisite setup
 
 ## reqirements
 * [composer](https://getcomposer.org)
+* [vagrant](https://www.vagrantup.com/)
 
 ## use
 1. clone this repo `$git clone https://github.com/jchck/basswp.git && cd basswp && rm -rf .git`
