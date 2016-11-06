@@ -31,6 +31,12 @@ define( 'NONCE_SALT',       'put your unique phrase here' );
 
 
 // ==============================================================
+// Turn on/off multisite
+// ==============================================================
+define( 'WP_ALLOW_MULTISITE', true );
+
+
+// ==============================================================
 // Define WordPress Table Prefix
 // ==============================================================
 if (empty( $table_prefix)) {
@@ -75,7 +81,7 @@ define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/app' );
 // ==============================================================
 // Set Basswp Thesis to default theme
 // ==============================================================
-define( 'WP_DEFAULT_THEME', 'basswp-thesis' );
+//define( 'WP_DEFAULT_THEME', 'basswp-thesis' );
 
 
 // ==============================================================
