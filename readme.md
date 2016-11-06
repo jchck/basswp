@@ -1,14 +1,15 @@
 # basswp
 A Composer powered WordPress Multisite setup
 
-## Features
-* Install and manage all dependencies via [Composer](https://getcomposer.org/). That's themes, plugins, and even WordPress itself
+## features
+* Install and manage all dependencies via [Composer](https://getcomposer.org/). That's themes, plugins, and even the WordPress core
 
-## Includes
+## reqirements
 
-## Reqirements
+## use
 
-## Use
+## suggested reading
+* [using composer with wordpress](https://roots.io/using-composer-with-wordpress)
 
-## License
+## license
 MIT
