@@ -15,6 +15,7 @@ A Composer powered WordPress Multisite setup
 3. `$ composer install`
 4. `$ vagrant up`
 5. Visit your site [here: http://192.168.33.10](http://192.168.33.10) and follow the prompts
+6. [Install the network of sites](http://192.168.33.10/wp/wp-admin/network.php)
 
 ## suggested reading
 * [using composer with wordpress](https://roots.io/using-composer-with-wordpress)
